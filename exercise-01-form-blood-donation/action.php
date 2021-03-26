@@ -32,6 +32,14 @@ if ($operation == "verify") {
 }
 
 
+/**
+ *
+ * Calculate the user years
+ *
+ * @param DateTimeObject Birth-date to calculate
+ * @return int User years
+ *
+ */
 function yearsCalculate($date)
 {
   //DateTime object for actual date
