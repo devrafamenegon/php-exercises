@@ -35,7 +35,7 @@ require_once("action.php");
           <input type="date" name="birth-date" id="birth-date"></input>
 
           <label for="weight">Weight</label>
-          <input type="number" name="weight" id="weight" min="1" max="300"></input>
+          <input type="number" name="weight" id="weight" min="1" max="300" value="<?= $weight ?? "" ?>"></input>
 
           <div class="buttons">
             <button type="submit" name="operation" value="verify">Verify</button>
