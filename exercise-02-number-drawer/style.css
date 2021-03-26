@@ -1,0 +1,115 @@
+:root {
+  --white: #fff;
+  --background: #f2f3f5;
+  --blue: #5965e0;
+  --blue-light: #9093ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.container {
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+
+  background: var(--background);
+}
+
+.card {
+  width: 800px;
+
+  margin-top: 200px;
+
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 0 60px rgba(0, 0, 0, 0.2);
+
+  background: var(--white);
+}
+
+.card-top {
+  height: 70px;
+  width: 100%;
+
+  padding-left: 20px;
+
+  display: flex;
+  align-items: center;
+
+  background: var(--blue);
+  color: var(--white);
+}
+
+.card-body {
+  width: 100%;
+
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.numbers {
+  width: 100%;
+
+  margin-bottom: 30px;
+
+  display: flex;
+  flex-direction: row;
+}
+
+.numbers span {
+  height: 100px;
+  flex: 16%;
+
+  margin: 0 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: var(--blue-light);
+  color: var(--white);
+  font-size: 2rem;
+}
+
+.button-draw {
+  width: 240px;
+
+  margin-top: 10px;
+
+  display: flex;
+}
+
+.button-draw button {
+  height: 30px;
+
+  border: none;
+  border-radius: 3px;
+  background: none;
+
+  cursor: pointer;
+  font-size: 1.2rem;
+
+  transition: 0.5s;
+
+  flex: 100%;
+
+  margin-right: 5px;
+
+  background: var(--blue-light);
+  color: var(--white);
+}
+
+.button-draw button:hover {
+  background: var(--blue);
+}
