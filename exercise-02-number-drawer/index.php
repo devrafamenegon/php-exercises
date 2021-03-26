@@ -37,17 +37,14 @@ require_once("action.php");
             <span><?= $numbers[3] ?></span>
             <span><?= $numbers[4] ?></span>
             <span><?= $numbers[5] ?></span>
-          </div>
+          </div> <!-- /numbers -->
           <div class="button-draw">
             <button type="submit" name="drawButton" value="draw">Draw</button>
-          </div>
-        </form>
-      </div>
-      </form>
-    </div> <!-- /card-body -->
-  </div> <!-- /card -->
+          </div> <!-- /button-draw -->
+        </form> <!-- /form -->
+      </div> <!-- /card-body -->
+    </div> <!-- /card -->
   </div> <!-- /container -->
-
 </body>
 
 </html>

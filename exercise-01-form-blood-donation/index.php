@@ -40,8 +40,8 @@ require_once("action.php");
           <div class="buttons">
             <button type="submit" name="operation" value="verify">Verify</button>
             <button type="submit" name="operation" value="clear">Clear</button>
-          </div>
-        </form>
+          </div> <!-- /buttons -->
+        </form> <!-- /form -->
       </div> <!-- /card-body -->
 
       <?php
@@ -68,7 +68,6 @@ require_once("action.php");
 
     </div> <!-- /card -->
   </div> <!-- /container -->
-
 </body>
 
 </html>
