@@ -6,11 +6,9 @@ This project was developed using the following technologies:
 
 ## 🔥 Preview
 
-Exercise 01
-<img alt="Ex01" title="Ex01" src=".github/exercise01.gif />
+![Exercise 01](https://github.com/C0bal/php-exercises/blob/master/.github/exercise01.gif)
 
-Exercise 02
-<img alt="Ex02" title="Ex02" src=".github/exercise02.gif />
+![Exercise 02](https://github.com/C0bal/php-exercises/blob/master/.github/exercise02.gif)
 
 ## 🚀 Getting started
 
@@ -46,4 +44,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE.md) fi
 
 ---
 
-Projected by Rafael Menegon
+Projected by [Rafael Menegon](https://github.com/C0bal)
