@@ -59,7 +59,7 @@ require_once("action.php");
           "
             <div class='card-bottom negative'>
               <h2>Too bad</h2>
-              <span>You cant be a donator!</span>
+              <span>You can't be a donator!</span>
             </div>
           ";
         }
