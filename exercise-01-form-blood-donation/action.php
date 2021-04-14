@@ -19,9 +19,9 @@ if ($operation == "verify") {
   $weight = $_POST['weight'];
 
   if ($weight <= 50 || $years < 16 || $years > 69) {
-    $canDonate = "cant";
+    $canDonate = false;
   } else if ($weight > 50 && $years >= 16 || $years <= 69) {
-    $canDonate = "can";
+    $canDonate = true;
   }
 } else if ($operation == "clear") {
   $weight = null;
@@ -46,10 +46,7 @@ function yearsCalculate($date)
   $now = new DateTime();
 
   //calculating the difference between date now and birth date
-  $years = $now->diff($date);
-
-  //recover only the years off difference
-  $years = $years->y;
+  $years = $now->diff($date)->y;
 
   return $years;
 }

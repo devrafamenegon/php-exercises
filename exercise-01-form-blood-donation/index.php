@@ -45,24 +45,22 @@ require_once("action.php");
       </div> <!-- /card-body -->
 
       <?php
-      if (gettype($canDonate) != null) {
-        if ($canDonate == "can") {
-          echo
-          "
-            <div class='card-bottom positive'>
-              <h2>Congratulations</h2>
-              <span>You can be a donator!</span>
-            </div>
-          ";
-        } else if ($canDonate == "cant") {
-          echo
-          "
-            <div class='card-bottom negative'>
-              <h2>Too bad</h2>
-              <span>You can't be a donator!</span>
-            </div>
-          ";
-        }
+      if ($canDonate === true) {
+        echo
+        "
+          <div class='card-bottom positive'>
+            <h2>Congratulations</h2>
+            <span>You can be a donator!</span>
+          </div>
+        ";
+      } else if ($canDonate === false) {
+        echo
+        "
+          <div class='card-bottom negative'>
+            <h2>Too bad</h2>
+            <span>You cant be a donator!</span>
+          </div>
+        ";
       }
       ?>
 
